@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   type = "0"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "WhyNotVersionOne/ViewController.swift"
+            timestampString = "536007255.7156"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "14"
+            endingLineNumber = "14"
+            landmarkName = "ViewController"
+            landmarkType = "3">
+            <Locations>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "WhyNotVersionOne.ViewController.__deallocating_deinit"
+                  moduleName = "WhyNotVersionOne"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/beyram/Desktop/WorkSpaceTP/WhyNotVersionOne/WhyNotVersionOne/ViewController.swift"
+                  timestampString = "531492289.406179"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "0"
+                  endingLineNumber = "0"
+                  offsetFromSymbolStart = "4">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "WhyNotVersionOne.ViewController.init (nibName : Swift.Optional&lt;Swift.String&gt;, bundle : Swift.Optional&lt;__ObjC.Bundle&gt;) -&gt; WhyNotVersionOne.ViewController"
+                  moduleName = "WhyNotVersionOne"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/beyram/Desktop/WorkSpaceTP/WhyNotVersionOne/WhyNotVersionOne/ViewController.swift"
+                  timestampString = "531492289.411649"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "14"
+                  endingLineNumber = "14"
+                  offsetFromSymbolStart = "58">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "WhyNotVersionOne.ViewController.__allocating_init (nibName : Swift.Optional&lt;Swift.String&gt;, bundle : Swift.Optional&lt;__ObjC.Bundle&gt;) -&gt; WhyNotVersionOne.ViewController"
+                  moduleName = "WhyNotVersionOne"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/beyram/Desktop/WorkSpaceTP/WhyNotVersionOne/WhyNotVersionOne/ViewController.swift"
+                  timestampString = "531492289.415677"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "0"
+                  endingLineNumber = "0"
+                  offsetFromSymbolStart = "23">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "WhyNotVersionOne.ViewController.__allocating_init (coder : __ObjC.NSCoder) -&gt; Swift.Optional&lt;WhyNotVersionOne.ViewController&gt;"
+                  moduleName = "WhyNotVersionOne"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/beyram/Desktop/WorkSpaceTP/WhyNotVersionOne/WhyNotVersionOne/ViewController.swift"
+                  timestampString = "531492289.41988"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "0"
+                  endingLineNumber = "0"
+                  offsetFromSymbolStart = "4">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "WhyNotVersionOne.ViewController.init (coder : __ObjC.NSCoder) -&gt; Swift.Optional&lt;WhyNotVersionOne.ViewController&gt;"
+                  moduleName = "WhyNotVersionOne"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/beyram/Desktop/WorkSpaceTP/WhyNotVersionOne/WhyNotVersionOne/ViewController.swift"
+                  timestampString = "531492289.424074"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "14"
+                  endingLineNumber = "14"
+                  offsetFromSymbolStart = "19">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>

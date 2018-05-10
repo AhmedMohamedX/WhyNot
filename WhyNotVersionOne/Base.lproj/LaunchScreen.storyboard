@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="11542" systemVersion="15G1611" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" launchScreen="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="01J-lp-oVM">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11524"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="EHf-IW-A2E">
+            <objects>
+                <viewController id="01J-lp-oVM" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="Llm-lL-Icb"/>
+                        <viewControllerLayoutGuide type="bottom" id="xb3-aO-Qok"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="Ze5-6b-2t3">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="splash-bg" translatesAutoresizingMaskIntoConstraints="NO" id="nQF-6z-FAQ">
+                                <rect key="frame" x="0.0" y="20" width="375" height="647"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="find" translatesAutoresizingMaskIntoConstraints="NO" id="8RP-tJ-v6G">
+                                <rect key="frame" x="67" y="609" width="240" height="38"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="240" id="nAo-3w-99w"/>
+                                    <constraint firstAttribute="height" constant="38" id="pfO-p0-DTY"/>
+                                </constraints>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="mascot" translatesAutoresizingMaskIntoConstraints="NO" id="qJB-4b-rXv">
+                                <rect key="frame" x="92.5" y="202" width="189" height="262"/>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="WHY NOT?" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="PyE-tk-c1X">
+                                <rect key="frame" x="113.5" y="84" width="147" height="33.5"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="28"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="8RP-tJ-v6G" firstAttribute="centerX" secondItem="Ze5-6b-2t3" secondAttribute="centerX" id="0wK-Ts-xBh"/>
+                            <constraint firstItem="xb3-aO-Qok" firstAttribute="top" secondItem="nQF-6z-FAQ" secondAttribute="bottom" id="OeP-dz-DMN"/>
+                            <constraint firstItem="qJB-4b-rXv" firstAttribute="centerX" secondItem="Ze5-6b-2t3" secondAttribute="centerX" id="d07-R3-DYv"/>
+                            <constraint firstItem="nQF-6z-FAQ" firstAttribute="top" secondItem="Llm-lL-Icb" secondAttribute="bottom" id="g2X-CH-5T1"/>
+                            <constraint firstItem="PyE-tk-c1X" firstAttribute="centerX" secondItem="nQF-6z-FAQ" secondAttribute="centerX" id="gdW-le-wqu"/>
+                            <constraint firstItem="qJB-4b-rXv" firstAttribute="centerY" secondItem="Ze5-6b-2t3" secondAttribute="centerY" id="iwm-0U-PE9"/>
+                            <constraint firstItem="8RP-tJ-v6G" firstAttribute="top" secondItem="nQF-6z-FAQ" secondAttribute="bottom" constant="-58" id="nPw-C1-F9f"/>
+                            <constraint firstItem="nQF-6z-FAQ" firstAttribute="leading" secondItem="Ze5-6b-2t3" secondAttribute="leading" id="sm9-sM-9SH"/>
+                            <constraint firstAttribute="trailing" secondItem="nQF-6z-FAQ" secondAttribute="trailing" id="vEp-Oj-mxw"/>
+                            <constraint firstItem="nQF-6z-FAQ" firstAttribute="top" secondItem="PyE-tk-c1X" secondAttribute="bottom" constant="-97.5" id="xBb-hn-kLh"/>
+                        </constraints>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="iYj-Kq-Ea1" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="52" y="374.66266866566718"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="find" width="331" height="20"/>
+        <image name="mascot" width="189" height="262"/>
+        <image name="splash-bg" width="360" height="640"/>
+    </resources>
+</document>
